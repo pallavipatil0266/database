@@ -15,7 +15,7 @@ var x = req.body.fname
 var s = req.body.lname
 var p = req.body.email
 var q = req.body.message
-var y = "Thank you, "+ x + s + p + q +". we will contact you soon"
+var y = "Thank you, "+ x + " " + s + " " + p + " " + q +". we will contact you soon"
  console.log(x, s, p, q, y)
  res.render("contact.ejs", {"text":y })
 

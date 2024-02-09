@@ -5,10 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="/css/style2.css">
 </head>
 
 <body>
+    <header>
+        <nav>
+            <div class="left">
+                <h1>Dr. Bhuvanesh</h1>
+                <i class='bx bx-menu' id="menu-icon"></i>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="http://localhost:8000/home">Home</a></li>
+                    <li><a href="http://localhost:8000/About">About</a></li>
+                    <li><a href="http://localhost:8000/Services">Services</a></li>
+                    <li><a href="http://localhost:8000/Contact">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
     <form method="post">
         <div class="container">
 
@@ -18,23 +35,38 @@
             <input type="messages" placeholder="text" name="message">
             <button>Book Apoinment</button>
         </div>
-        
-       <h1><%= text%></h1>
 
-       
+        <h1>
+            <%= text%>
+        </h1>
+
+
     </form>
     <main>
         <div class="location">
-            <h1>Contact Us For Details</h1>
-            <h1><i class='fas fa-map-marker-alt'>Call Today</i></h1>
-            <p>contact:2857893691,9035746866</p>
-            <p>Toll Freen No. 1423-476-2654</p>
+            <div class="details">
+                <h2>Contact Us For Details</h2>
+            </div>
+            <div class="box">
+                <h3><i class='bx bx-phone-call'></i>&nbsp;&nbsp;&nbsp;Call Today</h3>
+                <p>contact:2857893691,9035746866</p>
+                <p>Toll Freen No. 1423-476-2654</p>
+            </div>
 
-            <h1>Email Us</h1>
-            <p>bhuvipatil0266@gmail.com</p>
+            <div class="box">
+                <h3><i class='bx bx-envelope'></i>&nbsp;&nbsp;&nbsp;Email Us</h3>
+                <p>bhuvipatil0266@gmail.com</p>
+            </div>
 
-            <h1>Locaton</h1>
-            <p>Gujaral Petrol Pump, Jalgaon</p>
+            <div class="box">
+                <h3><i class='bx bx-location-plus'></i>&nbsp;&nbsp;&nbsp;Location</h3>
+                <p>Gujaral Petrol Pump, Jalgaon</p>
+            </div>
+
+            <div class="box">
+                <h3><i class='bx bx-time-five'></i>&nbsp;&nbsp;&nbsp;Ours Timings</h3>
+                <p>Mon-sat:10:00AM - 07:00PM</p>
+            </div>
         </div>
         <div class="contact">
             <iframe

@@ -65,7 +65,7 @@ nav ul li a:hover {
 }
 
 h3 {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 /* header{
@@ -79,8 +79,9 @@ padding: 50px;
 .container {
     margin-top: 100px;
     margin-left: 440px;
+    margin-bottom:20px;
     width: 450px;
-    height: 250px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     padding: 25px;
@@ -89,14 +90,14 @@ padding: 50px;
 }
 
 input {
-    margin: 10px 0px;
-    height: 25px;
-    padding: 7px;
+    margin: 10px;
+    height: 20px;
+    padding: 5px;
     background-color: rgb(241, 239, 236);
 }
 
 button {
-    height: 50px;
+    height: 40px;
     margin: 5px 0;
     background-color: rgb(187, 125, 228);
     border: none;
@@ -128,7 +129,8 @@ main {
 .details,
 h2 {
     text-align: center;
-    margin-left: 170px;
+    left: 150px;
+    position: relative;
 }
 
 .contact {
@@ -140,4 +142,21 @@ h2 {
 .box {
     padding: 10px;
     margin: 10px;
+}
+
+.footer{
+    margin-top: 50px;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(22, 22, 78);
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.footer-3{
+    text-align: center;
+    margin-top: 50px;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(22, 22, 78);
 }
